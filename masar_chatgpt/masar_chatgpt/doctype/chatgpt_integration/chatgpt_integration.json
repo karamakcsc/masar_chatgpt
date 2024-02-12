@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-04 11:29:47.066898",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "chatgpt_integration_section",
+  "chatgpt_settings",
+  "model",
+  "input",
+  "chatgpt_answer",
+  "image",
+  "execute",
+  "url_image",
+  "file"
+ ],
+ "fields": [
+  {
+   "fieldname": "input",
+   "fieldtype": "Text",
+   "label": "Input"
+  },
+  {
+   "fieldname": "chatgpt_answer",
+   "fieldtype": "Text",
+   "label": "ChatGPT Answer"
+  },
+  {
+   "fieldname": "chatgpt_integration_section",
+   "fieldtype": "Section Break",
+   "label": "ChatGPT Integration"
+  },
+  {
+   "fieldname": "execute",
+   "fieldtype": "Button",
+   "label": "Execute"
+  },
+  {
+   "fieldname": "chatgpt_settings",
+   "fieldtype": "Link",
+   "label": "ChatGPT Settings",
+   "options": "ChatGPT Settings"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Select",
+   "label": "Model",
+   "options": "gpt-4\ngpt-4-32k\ngpt-3.5-turbo-0125\ngpt-3.5-turbo-instruct\ndall-e-3"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "url_image"
+  },
+  {
+   "fieldname": "url_image",
+   "fieldtype": "Small Text",
+   "label": "URL Image"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "File"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-11 14:14:49.205881",
+ "modified_by": "Administrator",
+ "module": "Masar Chatgpt",
+ "name": "ChatGPT Integration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
