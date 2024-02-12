@@ -1,5 +1,5 @@
 # # Import required modules at the beginning of your script
-import frappe
+# import frappe
 # import openai
 
 # # Set your OpenAI API key
